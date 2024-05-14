@@ -48,9 +48,6 @@
       <div class="container mx-auto">
           <div class="navbar bg-base-100">
             <div class="navbar-start">
-              <a class="btn btn-ghost text-xl">Abacus Convention Center</a>
-            </div>
-            <div class="navbar-end">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -62,6 +59,10 @@
                   <li><a>Subscribe</a></li>
                 </ul>
               </div>
+              <a class="btn btn-ghost text-xl">Abacus Convention Center</a>
+            </div>
+            <div class="navbar-end">
+              
               <ul class="menu menu-horizontal px-1 hidden lg:flex">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
@@ -75,6 +76,7 @@
       <!-- banner area -->
       <div>
         <div class="carousel w-full">
+
           <div id="slide1" class="carousel-item relative w-full bg-no-repeat bg-cover py-64" style="background-image: url(images/banner.png);">
             <div class="w-2/5 mx-auto text-center space-y-5">
               <h1 class="text-5xl font-semibold text-white">The perfect venue for your next event</h1>
@@ -113,8 +115,21 @@
         </div>
       </div>
     </header>
-    <main>
-      
+    <main class="container mx-auto">
+
+      <!-- moment area  -->
+      <section class="w-4/5 mx-auto">
+        <div class="my-24">
+          <div class="flex gap-5 justify-between items-center flex-col lg:flex-row">
+            <img src="images/wedding.png" alt="wedding image" class="max-w-sm rounded-lg shadow-2xl" />
+            <div class="text-center lg:text-start">
+              <h1 class="text-4xl font-bold text-color-primary">Every moment is Precious </h1>
+              <p class="py-6 text-color-secondary font-bold">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              <button class="btn bg-color-background text-white font-bold">Explore our album <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 </body>
 </html>
